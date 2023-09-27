@@ -24,7 +24,8 @@ body {
 /*card*/
 .card {
 	background: var(--color-Very-dark-blue-card-BG);
-	padding: 1rem;
+	padding: 2rem;
+	border-radius: 20px;
 }
 
 /*Typography*/
@@ -66,6 +67,13 @@ body {
 .eth-creatorinfo a {
 	color: var(--color-White);
 	text-decoration: none;
+}
+
+/*image*/
+.eth-image {
+	width: 100%;
+	max-width: 339px;
+	border-radius: 20px;
 }
 
 /*attribution*/
