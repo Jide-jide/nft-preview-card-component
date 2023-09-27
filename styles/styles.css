@@ -10,70 +10,110 @@
 }
 
 * {
-	font-family: var(--main-font);
+  font-family: var(--main-font);
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	background: var(--color-Very-dark-blue-main-BG);
+  background: var(--color-Very-dark-blue-main-BG);
 }
 
 /*card*/
 .card {
-	background: var(--color-Very-dark-blue-card-BG);
-	padding: 2rem;
-	border-radius: 20px;
+  background: var(--color-Very-dark-blue-card-BG);
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 /*Typography*/
 .eth-image {
-	color: white;
+  color: white;
 }
 
 .eth-name {
-	font-size: 2.5rem;
-	color: var(--color-White);
-	margin-bottom: 0;
+  font-size: 2.5rem;
+  color: var(--color-White);
+  margin-bottom: 0;
 }
 
 .eth-desc {
-	font-size: 1.9rem;
-	font-weight: 300;
-	color: var(--color-soft-blue);
-	margin-top: 1rem;
-	line-height: 2;
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: var(--color-soft-blue);
+  margin-top: 1rem;
+  line-height: 2;
 }
 
 .eth-price {
-	font-size: 1.8rem;
-	color: var(--color-Cyan);
-	font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--color-Cyan);
+  font-weight: 600;
 }
 
 .eth-timeleft {
-	font-size: 1.8rem;
-	color: var(--color-soft-blue);
-	font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--color-soft-blue);
+  font-weight: 400;
 }
 
-.eth-creatorinfo {	
-	font-size: 1.8rem;
-	color: var(--color-soft-blue);
+.eth-creatorinfo {
+  font-size: 1.8rem;
+  color: var(--color-soft-blue);
 }
 
 .eth-creatorinfo a {
-	color: var(--color-White);
-	text-decoration: none;
+  color: var(--color-White);
+  text-decoration: none;
+}
+
+.eth-pricetimebox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth-pricetimebox>span>p {
+  padding-left: .7rem;
+}
+
+
+.eth-price,
+.eth-timeleft {
+  display: inherit;
+  align-items: center;
 }
 
 /*image*/
+.eth-imagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 339px;
+  border-radius: 20px;
+}
+
 .eth-image {
-	width: 100%;
-	max-width: 339px;
-	border-radius: 20px;
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.overlap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.eth-timeleft>img {
+  height: 20px;
+  width: 20px;
+}
+
+.eth-price>img {
+  height: 23px;
+  width: 15px;
 }
 
 /*attribution*/
