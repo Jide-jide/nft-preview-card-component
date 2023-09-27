@@ -116,6 +116,25 @@ body {
   width: 15px;
 }
 
+/*creator section*/
+.eth-creator {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid var(--color-Very-dark-blue-line);
+}
+
+.eth-creatorimage {
+	width: 35px;
+	height: 35px;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.eth-creatorinfo {
+	font-weight: 300;
+}
+
 /*attribution*/
 .attribution {
   font-size: 11px;
